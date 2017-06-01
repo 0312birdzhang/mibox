@@ -18,6 +18,7 @@ MI.getTvs().then(function(tvs){
 
 
 ## new MI(srv, keyes)
+
 **创建一个小米盒子实例**
 
 *@string srv    小米盒子服务接口地址*  
@@ -28,52 +29,53 @@ MI.getTvs().then(function(tvs){
 var mi = new MI('192.168.1.105:6095');
 ```
 
-##mi.play(video, name)
+## mi.play(video, name)
+
 **发送一个播放指令**
 
 *@string video 视频地址*  
 *@string name  视频名*
 
-##mi.menu()
+## mi.menu()
 **发送打开菜单指令**
 
-##mi.right()
+## mi.right()
 **发送向右指令**
 
-##mi.left()
+## mi.left()
 **发送向左指令**
 
-##mi.down()
+## mi.down()
 **发送向下指令**
 
-##mi.up()
+## mi.up()
 **发送向上指令**
 
-##mi.enter()
+## mi.enter()
 **发送确定指令**
 
-##mi.volumeup()
+## mi.volumeup()
 **发送音量增加指令**
 
-##mi.volumedown()
+## mi.volumedown()
 **发送音量减小指令**
 
-##mi.home()
+## mi.home()
 **发送返回主界面指令**
 
-##mi.back()
+## mi.back()
 **发送返回指令**
 
-##mi.power()
+## mi.power()
 **发送关闭小米盒子设备指令**
 
-##mi.imequery()
+## mi.imequery()
 **获取小米盒子当前聚焦输入框文字**
 
-##mi.text()
+## mi.text()
 **发送文字到小米盒子当前聚焦输入框**
 
-##mi.isActive()
+## mi.isActive()
 **查询当前盒子设备是否可用**
 
 
